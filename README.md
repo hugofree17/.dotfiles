@@ -17,7 +17,7 @@ Any ideas to improve this are welcome but I feel free to not accepted them since
 # Install
 
 ```
-git clone https://ghttps://github.com/hrodrigues-tf/.dotfiles
+git clone https://github.com/hrodrigues-tf/.dotfiles
 cd .dotfiles
 change args.sh to whatever is your needs.
 run install.sh and wait for the magic to happen.
