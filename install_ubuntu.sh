@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#for package in `cat inc/ubuntu/apt-packages.list`; do
-#	apt install $package -y &>/dev/null
-#	echo "$package installed"
-#done
+for package in `cat inc/ubuntu/apt-packages.list`; do
+	apt install $package -y &>/dev/null
+	echo "$package installed"
+done
 
 for package in inc/ubuntu/other-packages/*.sh; do
 	chmod +x $package
